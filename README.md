@@ -16,7 +16,11 @@ This cookbook provides three categories.
 
 ### Distributions
 
+* centos : [https://hub.docker.com/r/repositoryjp/centos/](https://hub.docker.com/r/repositoryjp/centos/)
+
 ### Servers
+
+* nginx : [https://hub.docker.com/r/repositoryjp/nginx/](https://hub.docker.com/r/repositoryjp/nginx/)
 
 ### Applications
 
