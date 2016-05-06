@@ -6,6 +6,10 @@ This directory contains Dockerfile of [Nginx](http://nginx.org/en/) for [Docker]
 
 [repositoryjp/centos:6.6](https://hub.docker.com/r/repositoryjp/centos/)
 
+## Nginx Version
+
+* 1.8.0
+
 ## Installation
 
 [1] Install [Docker](https://www.docker.com/).
