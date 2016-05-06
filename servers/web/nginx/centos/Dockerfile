@@ -1,0 +1,29 @@
+FROM repositoryjp/centos:6.6
+MAINTAINER Shinya Kinoshita <skinoshita@repositories.jp>
+
+LABEL name="Nginx Image" \
+      description="The image for creating docker container of Nginx." \
+      distribution="centos" \
+      centos-version="6.6" \
+      nginx-version="1.8.0" \
+      vendor="REPOSITORY <http://www.repositories.jp>" \
+      license="MIT"
+
+ENV NGINX_VERSION 1.8.0
+
+USER root
+WORKDIR /tmp
+
+# Install nginx.
+RUN wget http://nginx.org/packages/centos/6/x86_64/RPMS/nginx-${NGINX_VERSION}-1.el6.ngx.x86_64.rpm && \
+    rpm -U nginx-${NGINX_VERSION}-1.el6.ngx.x86_64.rpm
+COPY etc/nginx/nginx.conf /etc/nginx/nginx.conf
+
+# Configure container.
+EXPOSE 80 443
+VOLUME ["/etc/nginx/conf.d/", "/usr/share/nginx/", "/var/log/nginx"]
+
+USER root
+WORKDIR /root
+
+CMD ["/usr/sbin/nginx", "-g", "daemon off;"]
