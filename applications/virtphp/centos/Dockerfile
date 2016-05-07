@@ -31,6 +31,10 @@ RUN yum install -y readline-devel \
                    libcurl-devel \
                    libtidy \
                    libtidy-devel \
+                   libpng \
+                   libpng-devel \
+                   libjpeg \
+                   libjpeg-devel \
                    php
 
 # create symbolic link for libssl.
