@@ -24,7 +24,7 @@ docker run -i -t -d -P repositoryjp/php-5.6.20
 
 ## License
 
-See the file [LICENSE](../../../LICENSE).
+See the file [LICENSE](../../../../../LICENSE).
 
 ## Author
 

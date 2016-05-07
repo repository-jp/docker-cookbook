@@ -1,8 +1,10 @@
-# The Recipes of CentOS Docker Image
+# The Recipes of PHP Docker Image
 
 ## Recipes
 
-This direcotry contains recipes about below versions of CentOS.
+This direcotry contains recipes about below versions of PHP.
+
+### PHP 5.6.20
 
 * CentOS 6.6
 

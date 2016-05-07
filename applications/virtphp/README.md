@@ -1,8 +1,10 @@
-# The Recipes of CentOS Docker Image
+# The Recipes of virtPHP Docker Image
 
 ## Recipes
 
-This direcotry contains recipes about below versions of CentOS.
+This direcotry contains recipes about below versions of virtPHP.
+
+### virtPHP 0.5.2 (with PHPBrew 1.21.3)
 
 * CentOS 6.6
 

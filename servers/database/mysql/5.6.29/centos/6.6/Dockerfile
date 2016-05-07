@@ -1,8 +1,8 @@
 FROM repositoryjp/centos:6.6
 MAINTAINER Shinya Kinoshita <skinoshita@repositories.jp>
 
-LABEL name="MySQL Server Image" \
-      description="The image for creating docker container of MySQL Server." \
+LABEL name="MySQL 5.6.29 Server Image" \
+      description="The image for creating docker container of MySQL 5.6.29 Server." \
       distribution="centos" \
       centos-version="6.6" \
       mysql-version="5.6.29" \
@@ -24,7 +24,7 @@ RUN yum install -y libtool \
                    zlib-devel \
                    numactl
 
-# Install mysql.
+# Install MySQL.
 RUN wget https://dev.mysql.com/get/Downloads/MySQL-5.6/MySQL-client-${MYSQL_VERSION}-1.el6.x86_64.rpm && \
     rpm -U MySQL-client-${MYSQL_VERSION}-1.el6.x86_64.rpm && \
     wget https://dev.mysql.com/get/Downloads/MySQL-5.6/MySQL-server-${MYSQL_VERSION}-1.el6.x86_64.rpm && \
