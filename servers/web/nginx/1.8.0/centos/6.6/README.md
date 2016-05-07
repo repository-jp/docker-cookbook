@@ -33,7 +33,7 @@ docker run -d -p (host's port for http):80 -p (host's port for https):443 -v (ho
 
 ## License
 
-See the file [LICENSE](../../../../LICENSE).
+See the file [LICENSE](../../../../../LICENSE).
 
 ## Author
 

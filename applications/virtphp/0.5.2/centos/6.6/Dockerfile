@@ -5,7 +5,7 @@ LABEL name="virtPHP Image" \
       description="The image for creating docker container of virtPHP." \
       distribution="centos" \
       centos-version="6.6" \
-      phpbrew-version="1.20.6" \
+      phpbrew-version="1.21.3" \
       virtphp-version="0.5.2" \
       vendor="REPOSITORY <http://www.repositories.jp>" \
       license="MIT"
@@ -41,9 +41,9 @@ RUN yum install -y readline-devel \
 RUN ln -s /usr/lib64/libssl.so /usr/lib/libssl.so
 
 # Install phpbrew.
-RUN wget https://github.com/phpbrew/phpbrew/archive/1.20.6.tar.gz && \
-    tar xvzf 1.20.6.tar.gz && \
-    cd phpbrew-1.20.6 && \
+RUN wget https://github.com/phpbrew/phpbrew/archive/1.21.3.tar.gz && \
+    tar xvzf 1.21.3.tar.gz && \
+    cd phpbrew-1.21.3 && \
     chmod a+x phpbrew && \
     cp -p phpbrew /usr/local/bin/
 

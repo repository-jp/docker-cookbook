@@ -14,14 +14,14 @@ ENV NGINX_VERSION 1.8.0
 USER root
 WORKDIR /tmp
 
-# Install nginx.
+# Install Nginx.
 RUN wget http://nginx.org/packages/centos/6/x86_64/RPMS/nginx-${NGINX_VERSION}-1.el6.ngx.x86_64.rpm && \
     rpm -U nginx-${NGINX_VERSION}-1.el6.ngx.x86_64.rpm
 COPY etc/nginx/nginx.conf /etc/nginx/nginx.conf
 
 # Configure container.
 EXPOSE 80 443
-VOLUME ["/etc/nginx/conf.d/", "/usr/share/nginx/", "/var/log/nginx"]
+VOLUME /etc/nginx/conf.d /usr/share/nginx /var/log/nginx
 
 USER root
 WORKDIR /root

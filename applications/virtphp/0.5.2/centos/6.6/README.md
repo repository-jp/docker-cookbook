@@ -1,4 +1,4 @@
-# The Recipe of virtPHP Docker Image
+# The Recipe of virtPHP 0.5.2 Docker Image
 
 This directory contains Dockerfile of [virtPHP](http://virtphp.org/) for [Docker](https://www.docker.com/)'s automated build published to the public [Docker Hub Registry](https://hub.docker.com/).
 
@@ -7,10 +7,6 @@ This image also contains "PHPBrew", a version management tool for PHP.
 ## Base Docker Image
 
 [repositoryjp/centos:6.6](https://hub.docker.com/r/repositoryjp/centos/)
-
-## virtPHP Version
-
-0.5.2
 
 ## PHPBrew Version
 
@@ -46,7 +42,7 @@ If you want to use PHP, run below commands to create your PHP environment.
 
 [3] Create a virtual environment for PHP using virtPHP.
 
-	# Example: 
+	# Example:
 	#
 	# Create a virtual environment named 'phpenv' with PHP 5.6.20.
 	#
@@ -56,7 +52,7 @@ If you want to use PHP, run below commands to create your PHP environment.
 
 If you want to activate your PHP environment, run below command.
 
-	# Example: 
+	# Example:
 	#
 	# Activate a virtual environment named 'phpenv'.
 	#
@@ -64,7 +60,7 @@ If you want to activate your PHP environment, run below command.
 
 ## License
 
-See the file [LICENSE](../../../LICENSE).
+See the file [LICENSE](../../../../../LICENSE).
 
 ## Author
 

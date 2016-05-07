@@ -1,8 +1,8 @@
 FROM centos:6.6
 MAINTAINER Shinya Kinoshita <skinoshita@repositories.jp>
 
-LABEL name="CentOS Image" \
-      description="The image for creating docker container of CentOS that has some necessary packages." \
+LABEL name="CentOS 6.6 Image" \
+      description="The image for creating docker container of CentOS 6.6 that has some necessary packages." \
       distribution="centos" \
       centos-version="6.6" \
       vendor="REPOSITORY <http://www.repositories.jp>" \
