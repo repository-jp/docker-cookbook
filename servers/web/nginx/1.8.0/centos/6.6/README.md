@@ -10,12 +10,12 @@ This directory contains Dockerfile of [Nginx](http://nginx.org/en/) 1.8.0 for [D
 
 [1] Install [Docker](https://www.docker.com/).
 
-[2] Download automated build from public [Docker Hub Registry](https://hub.docker.com/): `docker pull repositoryjp/nginx`
+[2] Download automated build from public [Docker Hub Registry](https://hub.docker.com/): `docker pull repositoryjp/nginx-1.8.0:centos-6.6`
 
 ## Usage
 
 ```
-docker run -d -p (host's port for http):80 -p (host's port for https):443 -v (host's path for nginx configuration):/etc/nginx/conf.d/ -v (host's path for document root):/usr/share/nginx/ -v (host's path for logfile):/var/log/nginx repositoryjp/nginx
+docker run -d -p (host's port for http):80 -p (host's port for https):443 -v (host's path for nginx configuration):/etc/nginx/conf.d/ -v (host's path for document root):/usr/share/nginx/ -v (host's path for logfile):/var/log/nginx repositoryjp/nginx-1.8.0:centos-6.6
 ```
 
 [options]
