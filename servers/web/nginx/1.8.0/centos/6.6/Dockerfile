@@ -1,8 +1,8 @@
 FROM repositoryjp/centos:6.6
 MAINTAINER Shinya Kinoshita <skinoshita@repositories.jp>
 
-LABEL name="Nginx Image" \
-      description="The image for creating docker container of Nginx." \
+LABEL name="Nginx 1.8.0 Image" \
+      description="The image for creating docker container of Nginx 1.8.0 Server." \
       distribution="centos" \
       centos-version="6.6" \
       nginx-version="1.8.0" \

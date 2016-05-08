@@ -4,11 +4,7 @@ This directory contains Dockerfile of [PHP](http://php.net/) 5.6.20 for [Docker]
 
 ## Base Docker Image
 
-[repositoryjp/virtphp](https://hub.docker.com/r/repositoryjp/virtphp/)
-
-## PHP Version
-
-5.6.20
+[repositoryjp/phpbrew-1.21.3:centos-6.6](https://hub.docker.com/r/repositoryjp/phpbrew-1.21.3/)
 
 ## Installation
 

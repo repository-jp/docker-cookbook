@@ -2,7 +2,7 @@ FROM repositoryjp/centos:6.6
 MAINTAINER Shinya Kinoshita <skinoshita@repositories.jp>
 
 LABEL name="virtPHP Image" \
-      description="The image for creating docker container of virtPHP." \
+      description="The image for creating docker container of virtPHP 0.5.2." \
       distribution="centos" \
       centos-version="6.6" \
       phpbrew-version="1.21.3" \

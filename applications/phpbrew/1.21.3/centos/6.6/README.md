@@ -1,6 +1,6 @@
 # The Recipe of PHPBrew 1.21.3 Docker Image
 
-This directory contains Dockerfile of [PHPBrew](http://phpbrew.github.io/phpbrew/) for [Docker](https://www.docker.com/)'s automated build published to the public [Docker Hub Registry](https://hub.docker.com/).
+This directory contains Dockerfile of [PHPBrew](http://phpbrew.github.io/phpbrew/) 1.21.3 for [Docker](https://www.docker.com/)'s automated build published to the public [Docker Hub Registry](https://hub.docker.com/).
 
 ## Base Docker Image
 

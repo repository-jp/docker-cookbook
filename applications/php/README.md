@@ -4,9 +4,7 @@
 
 This direcotry contains recipes about below versions of PHP.
 
-### PHP 5.6.20
-
-* CentOS 6.6
+* 5.6.20
 
 ## License
 

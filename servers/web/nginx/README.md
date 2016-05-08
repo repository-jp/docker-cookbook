@@ -4,9 +4,7 @@
 
 This direcotry contains recipes about below versions of Nginx.
 
-### Nginx 1.8.0
-
-* CentOS 6.6
+* 1.8.0
 
 ## License
 

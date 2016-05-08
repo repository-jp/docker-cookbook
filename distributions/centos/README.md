@@ -4,7 +4,7 @@
 
 This direcotry contains recipes about below versions of CentOS.
 
-* CentOS 6.6
+* 6.6
 
 ## License
 

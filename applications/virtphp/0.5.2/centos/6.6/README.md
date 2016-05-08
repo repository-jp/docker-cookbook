@@ -1,6 +1,6 @@
 # The Recipe of virtPHP 0.5.2 Docker Image
 
-This directory contains Dockerfile of [virtPHP](http://virtphp.org/) for [Docker](https://www.docker.com/)'s automated build published to the public [Docker Hub Registry](https://hub.docker.com/).
+This directory contains Dockerfile of [virtPHP](http://virtphp.org/) 0.5.2 for [Docker](https://www.docker.com/)'s automated build published to the public [Docker Hub Registry](https://hub.docker.com/).
 
 This image also contains "PHPBrew", a version management tool for PHP.
 

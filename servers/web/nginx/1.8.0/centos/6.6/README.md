@@ -1,14 +1,10 @@
-# The Recipe of Nginx Docker Image
+# The Recipe of Nginx 1.8.0 Docker Image
 
-This directory contains Dockerfile of [Nginx](http://nginx.org/en/) for [Docker](https://www.docker.com/)'s automated build published to the public [Docker Hub Registry](https://hub.docker.com/).
+This directory contains Dockerfile of [Nginx](http://nginx.org/en/) 1.8.0 for [Docker](https://www.docker.com/)'s automated build published to the public [Docker Hub Registry](https://hub.docker.com/).
 
 ## Base Docker Image
 
 [repositoryjp/centos:6.6](https://hub.docker.com/r/repositoryjp/centos/)
-
-## Nginx Version
-
-* 1.8.0
 
 ## Installation
 

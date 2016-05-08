@@ -4,9 +4,7 @@
 
 This direcotry contains recipes about below versions of PHPBrew.
 
-### PHPBrew 1.21.3
-
-* CentOS 6.6
+* 1.21.3
 
 ## License
 

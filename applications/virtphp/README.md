@@ -4,9 +4,7 @@
 
 This direcotry contains recipes about below versions of virtPHP.
 
-### virtPHP 0.5.2 (with PHPBrew 1.21.3)
-
-* CentOS 6.6
+* 0.5.2 (with PHPBrew 1.21.3)
 
 ## License
 
