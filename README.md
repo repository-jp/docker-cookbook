@@ -8,31 +8,45 @@ Docker images created by these recipes are published to the public [Docker Hub R
 
 This cookbook provides three categories.
 
+* Applications - The recipe of docker image that an application (ex. todo app) has been installed.
+
 * Distributions - The recipe of docker image that some necessary libraries and packages have been installed to use distribution convinienctly.
 
 * Servers - The recipe of docker image to function as a server.
 
-* Applications - The recipe of docker image that an application (ex. todo app) has been installed.
-
 ### Applications
 
-* virtPHP : [https://hub.docker.com/r/repositoryjp/virtphp/](https://hub.docker.com/r/repositoryjp/virtphp/)
+##### PHP
 
-* PHP 5.6.20 : [https://hub.docker.com/r/repositoryjp/php-5.6.20/](https://hub.docker.com/r/repositoryjp/php-5.6.20/)
+* 5.6.20 : [https://hub.docker.com/r/repositoryjp/php-5.6.20/](https://hub.docker.com/r/repositoryjp/php-5.6.20/)
+
+##### PHPBrew
+
+* 1.21.3 : [https://hub.docker.com/r/repositoryjp/phpbrew-1.21.3/](https://hub.docker.com/r/repositoryjp/phpbrew-1.21.3/)
+
+##### virtPHP
+
+* 0.5.2 : [https://hub.docker.com/r/repositoryjp/virtphp-0.5.2/](https://hub.docker.com/r/repositoryjp/virtphp-0.5.2/)
 
 ### Distributions
 
-* centos : [https://hub.docker.com/r/repositoryjp/centos/](https://hub.docker.com/r/repositoryjp/centos/)
+##### RedHat
+
+* CentOS : [https://hub.docker.com/r/repositoryjp/centos/](https://hub.docker.com/r/repositoryjp/centos/)
 
 ### Servers
 
-#### Web
+#### Web Server
 
-* nginx : [https://hub.docker.com/r/repositoryjp/nginx/](https://hub.docker.com/r/repositoryjp/nginx/)
+##### Nginx
 
-#### Database
+* 1.8.0 : [https://hub.docker.com/r/repositoryjp/nginx-1.8.0/](https://hub.docker.com/r/repositoryjp/nginx-1.8.0/)
 
-* mysql : [https://hub.docker.com/r/repositoryjp/mysql/](https://hub.docker.com/r/repositoryjp/mysql/)
+#### Database Server
+
+##### MySQL
+
+* 5.6.29 : [https://hub.docker.com/r/repositoryjp/mysql-5.6.29/](https://hub.docker.com/r/repositoryjp/mysql-5.6.29/)
 
 ## License
 
