@@ -5,6 +5,7 @@
 This direcotry contains recipes about below versions of PHP.
 
 * 5.6.20
+* 5.6.21
 
 ## License
 
