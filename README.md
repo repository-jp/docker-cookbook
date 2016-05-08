@@ -25,6 +25,10 @@ This cookbook provides three categories.
 
 * 1.21.3 : [https://hub.docker.com/r/repositoryjp/phpbrew-1.21.3/](https://hub.docker.com/r/repositoryjp/phpbrew-1.21.3/)
 
+##### pyenv
+
+* v20160422 : [https://hub.docker.com/r/repositoryjp/pyenv-v20160422/](https://hub.docker.com/r/repositoryjp/pyenv-v20160422/)
+
 ##### virtPHP
 
 * 0.5.2 : [https://hub.docker.com/r/repositoryjp/virtphp-0.5.2/](https://hub.docker.com/r/repositoryjp/virtphp-0.5.2/)
