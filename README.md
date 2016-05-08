@@ -19,6 +19,7 @@ This cookbook provides three categories.
 ##### PHP
 
 * 5.6.20 : [https://hub.docker.com/r/repositoryjp/php-5.6.20/](https://hub.docker.com/r/repositoryjp/php-5.6.20/)
+* 5.6.21 : [https://hub.docker.com/r/repositoryjp/php-5.6.21/](https://hub.docker.com/r/repositoryjp/php-5.6.21/)
 
 ##### PHPBrew
 
@@ -41,6 +42,7 @@ This cookbook provides three categories.
 ##### Nginx
 
 * 1.8.0 : [https://hub.docker.com/r/repositoryjp/nginx-1.8.0/](https://hub.docker.com/r/repositoryjp/nginx-1.8.0/)
+* 1.8.1 : [https://hub.docker.com/r/repositoryjp/nginx-1.8.1/](https://hub.docker.com/r/repositoryjp/nginx-1.8.1/)
 
 #### Database Server
 
