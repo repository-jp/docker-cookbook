@@ -1,4 +1,4 @@
-FROM repositoryjp/virtphp
+FROM repositoryjp/phpbrew-1.21.3:centos-6.6
 MAINTAINER Shinya Kinoshita <skinoshita@repositories.jp>
 
 LABEL name="PHP 5.6.20 Image" \
@@ -14,14 +14,10 @@ ENV PHP_VERSION 5.6.20
 USER root
 
 # Install PHP 5.6.20
-RUN phpbrew install ${PHP_VERSION} +default +everything -- --with-icu-dir=/usr --with-gd --with-jpeg-dir=/usr/lib64 --with-png-dir=/usr/png --enable-gd-jis-conv
-RUN phpbrew switch ${PHP_VERSION}
-
-RUN virtphp create --php-bin-dir=$HOME/.phpbrew/php/php-${PHP_VERSION}/bin phpenv
-
-RUN sed -e 's/;date.timezone =/date.timezone = UTC/g' $HOME/.virtphp/envs/phpenv/etc/php.ini > /tmp/php.ini
-RUN mv -f /tmp/php.ini .virtphp/envs/phpenv/etc/php.ini
-RUN echo "[[ -e ~/.virtphp/envs/phpenv/ ]] && source ~/.virtphp/envs/phpenv/bin/activate" >> ~/.bashrc
+RUN phpbrew install ${PHP_VERSION} +default +everything -- --with-icu-dir=/usr --with-gd --with-jpeg-dir=/usr/lib64 --with-png-dir=/usr/png --enable-gd-jis-conv && \
+    sed -e 's/;date.timezone =/date.timezone = UTC/g' $HOME/.phpbrew/php/php-${PHP_VERSION}/etc/php.ini > /tmp/php.ini && \
+    mv -f /tmp/php.ini $HOME/.phpbrew/php/php-${PHP_VERSION}/etc/php.ini && \
+    echo "[[ -d ~/.phpbrew/php/php-5.6.20 ]] && phpbrew switch php-5.6.20" >> ~/.bashrc
 
 # Configure container.
 USER root
