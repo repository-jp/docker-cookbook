@@ -5,6 +5,7 @@
 This direcotry contains recipes about below versions of Nginx.
 
 * 1.8.0
+* 1.8.1
 
 ## License
 
