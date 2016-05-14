@@ -1,4 +1,4 @@
-# The Recipe of Python Virtual Environment (pyenv-virtualenv) v20160422
+# The Recipe of Python Virtual Environment (pyenv-virtualenv) v20160315
 
 This repository contains Dockerfile of [pyenv-virtualenv](https://github.com/yyuu/pyenv-virtualenv) for [Docker](https://www.docker.com/)'s automated build published to the public [Docker Hub Registry](https://hub.docker.com/).
 
